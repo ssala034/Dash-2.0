@@ -13,10 +13,10 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Header Files\graphics">
+    <Filter Include="Source Files\graphics">
       <UniqueIdentifier>{93f3ad8b-1abc-4161-93d2-9a20f64723b2}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\logic">
+    <Filter Include="Source Files\logic">
       <UniqueIdentifier>{649b996c-517c-47d4-84b0-26d4f105ce56}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -26,11 +26,11 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="gameEngine.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="resources.hpp">
-      <Filter>Header Files</Filter>
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gameEngine.hpp">
+      <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
