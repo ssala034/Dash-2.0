@@ -32,5 +32,8 @@
     <ClInclude Include="gameEngine.hpp">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="hdr\logic\collisions.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -150,6 +150,7 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="hdr\logic\collisions.hpp" />
     <ClInclude Include="gameEngine.hpp" />
     <ClInclude Include="resources.hpp" />
   </ItemGroup>
