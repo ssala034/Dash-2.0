@@ -148,11 +148,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="src\test.cpp" />
+    <ClCompile Include="src\logic\NeuralNet.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="hdr\logic\collisions.hpp" />
     <ClInclude Include="gameEngine.hpp" />
+    <ClInclude Include="hdr\logic\NeuralNet.hpp" />
     <ClInclude Include="resources.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

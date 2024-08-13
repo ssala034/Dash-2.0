@@ -1,9 +1,6 @@
-#include "../hdr/gameEngine.hpp"
-//#include "../hdr/graphic/map.hpp"
+#include "../../hdr/gameEngine.hpp"
+#include "../../hdr/graphic/window.hpp"
 
-namespace gameEngine {
-
-	void create() {
-		Map::createMap();
-	}
+void gameEngine::createGame() {
+	gameEngine::window::createWindow();
 }
