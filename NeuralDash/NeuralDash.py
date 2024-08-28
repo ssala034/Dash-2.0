@@ -21,6 +21,9 @@ def evaluate_genome(genomes, config):
     ge = []
     nets = []
     npcs = []
+    model = PyTorchModel(input_size=3, output_size=1, genome=genome, config=config) # Adjust input/output size as needed
+        
+    input_data = torch.tensor(np.random.randn(1, 3), dtype=torch.float32) 
 
     for genome_id, genome in genomes:
         genome.fitness = 0
