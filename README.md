@@ -16,8 +16,14 @@ This is a recreation of the Geometry Dash Lite moblie game written fully in C++,
 1. **Clone the Repository**
 
    ```sh
-   git clone https://github.com/yourusername/your-repository.git
-   cd your-repository
+   git clone https://github.com/ssala043/Dash-2.0.git
+   cd Dash-2.0
+   
+2. **Testing**
+   - Build the /src
+   ```sh
+   make main
+   
 
 2. **Dependencies**
   - SFML Library
