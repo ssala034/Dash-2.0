@@ -46,4 +46,7 @@ pip install neat-python
    ```sh
    make main
    ```
-Then run ./main
+Then run
+```bash
+./main
+```
