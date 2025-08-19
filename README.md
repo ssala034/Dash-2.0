@@ -4,7 +4,7 @@
 The **AI Dash Engine** is a recreation of the **Geometry Dash Lite** mobile game written fully in **C++**, using **Object-Oriented Principles** and the **SFML (Simple and Fast Multimedia Library)**. This game integrates an AI component, utilizing the **NEAT (NeuroEvolution of Augmenting Topologies)** algorithm written in **Python**, to autonomously learn and beat the game.
 
 ## Quick Look
-<img width="500" height="220" alt="Screenshot 2025-08-09 130812" src="https://github.com/user-attachments/assets/85a6955e-f147-464d-8bb0-3e1af5274c6a" />
+<img width="500" height="350" alt="Screenshot 2025-08-09 130812" src="https://github.com/user-attachments/assets/85a6955e-f147-464d-8bb0-3e1af5274c6a" />
 
 *Snapshot of gameplay in action*
 
